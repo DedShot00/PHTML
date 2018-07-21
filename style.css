@@ -1,0 +1,25 @@
+body{
+  background-color: #454140;
+}
+
+ .master-title{
+   color: white;
+ }
+
+ .master-text{
+   color: white;
+ }
+
+.center{
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.blanco,
+.galery-name,
+.date {
+  color: #ffffff;
+}
