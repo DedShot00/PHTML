@@ -27,3 +27,39 @@ body{
 header {
   background-color: black
 }
+
+.page-title {
+  float: left;
+  padding: 10px;
+  margin-top: 15px;
+  margin-left: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.redes {
+  padding: 0px;
+  display: inline;
+}
+
+.down-arrow {
+  display: block;
+  margin: auto;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.redes {
+  float: right;
+  padding: 10px;
+  margin-top: 15px;
+  margin-right: 20px;
+}
