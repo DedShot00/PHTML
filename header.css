@@ -1,0 +1,55 @@
+body {
+  margin: 0px 0px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+header {
+  background-color: #191919;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
+
+li {
+  float: left;
+  list-style: none;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #BABABA;
+}
+
+.social-nav {
+  float: right;
+  padding-left: 0px;
+}
+
+.pages-name {
+  float: left;
+  padding-left: 15px;
+}
+
+.pages-name :hover {
+  color: #fff;
+}
+
+.logo {
+  width: 115px;
+  margin-right: 15px;
+}
+
+.nav-item {
+  display:  inline-block;
+}
+
+.header-pages {
+  margin-left: 12px;
+  font-size: .97em;
+  margin-top: 2px;
+}
+
+.header-social {
+  margin-right: 8px;
+}
