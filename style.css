@@ -40,7 +40,7 @@ body{
 
 .master-arrow {
   display: inline-block;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .galery-name,
@@ -51,7 +51,13 @@ body{
 .masthead-text {
 margin-top: 150px;
 }
-/* codigo header */
+
+
+
+
+
+
+
 body {
   margin: 0px 0px;
   font-family: sans-serif;
