@@ -10,10 +10,6 @@ body{
    margin-bottom: 20px;
  }
 
- header {
-   background-color: black;
- }
-
  .master-text{
    color: white;
    font-size: 1.3em;
@@ -31,10 +27,9 @@ body{
   font-weight: bold;
 }
 
-.blanco,
-.galery-name,
-.date {
+.blanco {
   color: #ffffff;
+  text-decoration: none;
 }
 
 .down-arrow {
@@ -53,5 +48,26 @@ body{
 }
 
 .masthead-text {
-margin-top: 150px;
+  margin-top: 150px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.galerias {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.tarjeta {
+  background: #121212;
+  color: #fff;
+  width: 46%;
+  margin: 23px;
+}
+
+.cover-image {
+  width: 100%;
 }
