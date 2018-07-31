@@ -1,6 +1,6 @@
 body{
   background-color: #212121;
-  font-family: sans-serif;
+  font-family: 'Francois One', sans-serif;
   margin: 0px;
 }
 
@@ -28,8 +28,9 @@ body{
 }
 
 .blanco {
-  color: #ffffff;
+  color: #BABABA;
   text-decoration: none;
+  font-size: .95em;
 }
 
 .down-arrow {
@@ -58,43 +59,22 @@ body{
 
 .galerias {
   margin: 0 auto;
-  width: 90%;
+  width: 89%;
 }
 
 .tarjeta {
-  background: #121212;
+  background: #000000;
   color: #fff;
-  width: 46%;
-  margin: 23px;
+  width: 49.5%;
+  margin: 10px auto;
 }
 
 .cover-image {
   width: 100%;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 900px) {
   .tarjeta{
-    width: 46%;
-    margin: 20px;
-  }
-}
-
-@media (max-width: 1200px) {
-  .tarjeta{
-    width: 45%;
-    margin: 17px;
-  }
-}
-
-@media (max-width: 800px) {
-  .tarjeta{
-    width: 41%;
-    margin: 17px;
-  }
-}
-
-@media (max-width: 700px) {
-  .tarjeta{
-    width: 95%;
+    width: 100%;
   }
 }

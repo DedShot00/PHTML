@@ -5,6 +5,8 @@
     <title>pepe's web</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="/header.css">
+    <link rel="stylesheet" href="/contacto.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
   </head>
   <link rel="icon" href="/Pe.ico">
   <body>
@@ -33,5 +35,22 @@
         </li>
       </ul>
     </header>
+    <form class="contacto">
+      <div>
+        <label for="nombre">Nombre *</label>
+        <input type="text" name="nombre" placeholder="Tu Nombre...">
+      </div>
+      <div>
+        <label for="e-mail">Email *</label>
+        <input type="text" name="e-mail" placeholder="Tu Email...">
+      </div>
+      <div>
+        <label for="mensaje">Mensaje *</label>
+        <textarea name="mensaje" rows="6" cols="30" placeholder="Tu Mensaje..."></textarea>
+      </div>
+      <div class="boton">
+        <input type="submit" value="enviar">
+      </div>
+    </form>
   </body>
 </html>

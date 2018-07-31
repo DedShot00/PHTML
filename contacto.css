@@ -1,0 +1,44 @@
+body{
+	margin: auto;
+}
+
+.contacto{
+	padding: 45px 45px 20px;
+	margin-top: 50px;
+  display:flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.contacto label{
+	display: block; /* esto es para que el label se sobreponga a la caja de texto */
+  color: #BABABA;
+  font-weight: lighter;
+  font-size: .8em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contacto div{
+	margin-bottom: 15px; /* esto los separara un poco */
+  display: inline-block;
+  width: 100%;
+}
+
+.contacto input[type='text'], .contacto textarea{
+	padding: 7px 6px;
+	width: 294px; /* una longitud definida */
+	border: 1px solid #474747;
+	resize: none; /* esta propiedad es para que el textarea no sea redimensionable */
+	margin: 5px 0;
+  border-radius: 3px;
+  background-color: #212121;
+  color: #fff;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  font-weight: bolder;
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+  color: #3b3838;
+}
