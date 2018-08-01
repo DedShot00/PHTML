@@ -1,13 +1,22 @@
 body{
 	margin: auto;
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
-.contacto{
-	padding: 45px 45px 20px;
-	margin-top: 50px;
-  display:flex;
-  flex-wrap: wrap;
-  width: 80%;
+h1 {
+  color: #fff;
+  text-align: center;
+  padding: 60px;
+  font-size: 1.5em;
+}
+
+form.contacto{
+	margin: 50px auto 0 auto;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .contacto label{
@@ -20,17 +29,29 @@ body{
 
 .contacto div{
 	margin-bottom: 15px; /* esto los separara un poco */
-  display: inline-block;
-  width: 100%;
+  display: block;
 }
 
-.contacto input[type='text'], .contacto textarea{
+.contacto input[type='text']{
 	padding: 7px 6px;
-	width: 294px; /* una longitud definida */
+	width: 478px; /* una longitud definida */
+  height: 38px;
 	border: 1px solid #474747;
 	resize: none; /* esta propiedad es para que el textarea no sea redimensionable */
 	margin: 5px 0;
-  border-radius: 3px;
+  border-radius: 5px;
+  background-color: #212121;
+  color: #fff;
+}
+
+.contacto textarea {
+  padding: 7px 6px;
+	width: 478px; /* una longitud definida */
+  height: 104px;
+	border: 1px solid #474747;
+	resize: none; /* esta propiedad es para que el textarea no sea redimensionable */
+	margin: 5px 0;
+  border-radius: 5px;
   background-color: #212121;
   color: #fff;
 }
@@ -41,4 +62,17 @@ textarea::-webkit-input-placeholder {
   font-size: 1.2em;
   font-family: 'Roboto', sans-serif;
   color: #3b3838;
+}
+
+.contacto input[type='submit']{
+  background-color: #fff;
+	border: 1px solid #595d5e;
+	padding: 8px 16px;
+	border-radius: 5px;
+	font-weight: bold;
+  height: 40px;
+  padding: 0 30px;
+}
+.contacto input[type='submit']:hover{
+  background-color: #d4d4d4;
 }
